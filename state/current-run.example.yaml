@@ -1,0 +1,9 @@
+run_id: example-2026-01-10
+mode: daily-scan
+started_at: 2026-01-10T16:00:00Z
+counts:
+  discovered: 8
+  verified_open: 4
+  unknown: 2
+  closed: 2
+  shortlisted: 2

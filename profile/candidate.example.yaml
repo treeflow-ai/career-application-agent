@@ -1,0 +1,12 @@
+schema_version: 1
+candidate:
+  display_name: "Example Candidate"
+  location: "Example City, ST"
+  email: "candidate@example.com"
+  phone: "+1-555-010-2000"
+  github: "https://github.com/example-candidate"
+  linkedin: null
+  work_authorization:
+    status: "USER_CONFIRMED_VALUE"
+    sponsorship_required: "USER_CONFIRMED_VALUE"
+  positioning: "Example positioning statement; replace privately."

@@ -1,0 +1,18 @@
+# Private candidate state — never commit
+profile/candidate.yaml
+profile/preferences.yaml
+profile/evidence-bank.yaml
+profile/master-resume.md
+profile/linkedin-profile.md
+state/history.csv
+state/current-run.yaml
+applications/private/
+.local/
+.env
+.env.*
+
+# Generated/cached
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store

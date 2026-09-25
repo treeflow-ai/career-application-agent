@@ -1,0 +1,19 @@
+{
+  "fictional": true,
+  "results": [
+    {
+      "company": "Example Systems",
+      "title": "Applied AI Engineer",
+      "discovery_url": "https://jobs.example.com/example-systems-ai",
+      "source": "aggregator",
+      "status": "DISCOVERED"
+    },
+    {
+      "company": "Demo Works",
+      "title": "Automation Engineer",
+      "discovery_url": "https://careers.example.org/demo-works/456",
+      "source": "employer",
+      "status": "DISCOVERED"
+    }
+  ]
+}

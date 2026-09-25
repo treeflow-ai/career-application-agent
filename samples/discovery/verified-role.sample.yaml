@@ -1,0 +1,14 @@
+fictional: true
+company: Example Systems
+title: Applied AI Engineer
+canonical_url: https://careers.example.com/jobs/123
+verification_status: OPEN_VERIFIED
+verified_at: 2026-01-10T17:00:00Z
+source_type: employer_careers
+verification_evidence: "Fictional official posting snapshot showed matching title and active application path."
+requirements:
+  - Python
+  - REST API integration
+  - LLM workflow experience
+  - customer-facing requirements discovery
+  - ExampleNamedFramework preferred

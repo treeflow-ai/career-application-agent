@@ -1,0 +1,18 @@
+schema_version: 1
+search:
+  target_roles:
+    - "Applied AI Engineer"
+    - "AI Automation Engineer"
+    - "Business Systems Engineer"
+  locations: ["Remote - US"]
+  remote_preferred: true
+  daily_scan_limit: 15
+  official_source_required: true
+  max_posting_age_days: 30
+application:
+  resume_pages: 2
+  cover_letter_words: [350, 500]
+  auto_submit: false
+privacy:
+  allow_public_linkedin: false
+  sensitive_fields: "USER_ONLY"

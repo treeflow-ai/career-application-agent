@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<rect width="1200" height="760" fill="white"/>
+<style>.b{fill:#f7f7f7;stroke:#222;stroke-width:2;rx:14}.h{font:700 22px Arial,sans-serif;fill:#111}.t{font:16px Arial,sans-serif;fill:#222}.a{stroke:#333;stroke-width:2.5;fill:none;marker-end:url(#m)}</style>
+<defs><marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#333"/></marker></defs>
+<text x="600" y="42" text-anchor="middle" class="h">Career Application Agent</text>
+<rect class="b" x="60" y="90" width="220" height="90"/><text x="170" y="125" text-anchor="middle" class="h">Entry A</text><text x="170" y="153" text-anchor="middle" class="t">Search / daily-scan</text>
+<rect class="b" x="60" y="230" width="220" height="90"/><text x="170" y="265" text-anchor="middle" class="h">Entry B</text><text x="170" y="293" text-anchor="middle" class="t">Role URL</text>
+<rect class="b" x="355" y="120" width="245" height="95"/><text x="478" y="157" text-anchor="middle" class="h">Discovery</text><text x="478" y="184" text-anchor="middle" class="t">search + dedupe</text>
+<rect class="b" x="355" y="260" width="245" height="105"/><text x="478" y="298" text-anchor="middle" class="h">Verification</text><text x="478" y="326" text-anchor="middle" class="t">official/ATS source</text><text x="478" y="348" text-anchor="middle" class="t">open / closed / unknown</text>
+<rect class="b" x="675" y="120" width="245" height="95"/><text x="798" y="157" text-anchor="middle" class="h">Evaluation</text><text x="798" y="184" text-anchor="middle" class="t">target + qualification fit</text>
+<rect class="b" x="675" y="260" width="245" height="105"/><text x="798" y="298" text-anchor="middle" class="h">Evidence Map</text><text x="798" y="326" text-anchor="middle" class="t">DIRECT / TRANSFERABLE</text><text x="798" y="348" text-anchor="middle" class="t">UNKNOWN / UNMET</text>
+<rect class="b" x="965" y="190" width="190" height="105"/><text x="1060" y="228" text-anchor="middle" class="h">Private State</text><text x="1060" y="255" text-anchor="middle" class="t">profile + evidence</text><text x="1060" y="277" text-anchor="middle" class="t">preferences + history</text>
+<rect class="b" x="355" y="460" width="245" height="105"/><text x="478" y="498" text-anchor="middle" class="h">Generation</text><text x="478" y="526" text-anchor="middle" class="t">resume + letter + answers</text><text x="478" y="548" text-anchor="middle" class="t">notes + provenance</text>
+<rect class="b" x="675" y="460" width="245" height="105"/><text x="798" y="498" text-anchor="middle" class="h">Validation</text><text x="798" y="526" text-anchor="middle" class="t">deterministic + semantic</text><text x="798" y="548" text-anchor="middle" class="t">fail → revise</text>
+<rect class="b" x="500" y="635" width="260" height="85"/><text x="630" y="670" text-anchor="middle" class="h">Durable Feedback</text><text x="630" y="698" text-anchor="middle" class="t">state + market outcomes</text>
+<path class="a" d="M280 135 L355 160"/><path class="a" d="M280 275 L355 305"/><path class="a" d="M478 215 L478 260"/><path class="a" d="M600 312 L675 175"/><path class="a" d="M798 215 L798 260"/><path class="a" d="M965 243 L920 300"/><path class="a" d="M675 313 L600 500"/><path class="a" d="M798 365 L545 460"/><path class="a" d="M600 512 L675 512"/><path class="a" d="M798 565 L700 635"/><path class="a" d="M630 635 L520 565"/>
+<text x="845" y="606" class="t">validation failure</text><text x="845" y="628" class="t">loops back to drafting</text>
+</svg>

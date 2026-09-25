@@ -1,0 +1,8 @@
+fictional: true
+artifacts:
+  Resume.sample.md:
+    evidence_ids: [exp_example_api, proj_example_agent]
+  Cover-Letter.sample.md:
+    evidence_ids: [exp_example_api, proj_example_agent]
+role_source:
+  file: samples/discovery/verified-role.sample.yaml

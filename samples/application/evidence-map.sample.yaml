@@ -1,0 +1,15 @@
+fictional: true
+mappings:
+  - requirement: Python and REST API integration
+    classification: DIRECT
+    evidence_ids: [exp_example_api]
+    allowed_claim: "Built internal Python/REST integrations."
+  - requirement: LLM workflow experience
+    classification: DIRECT
+    evidence_ids: [proj_example_agent]
+    allowed_claim: "Built an evidence-grounded agent workflow."
+  - requirement: ExampleNamedFramework
+    classification: UNKNOWN
+    evidence_ids: []
+    allowed_claim: null
+    gap_note: "Do not add this framework to Skills or Experience."

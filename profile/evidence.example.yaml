@@ -1,0 +1,17 @@
+schema_version: 1
+evidence:
+  - id: exp_example_api
+    status: VERIFIED
+    type: experience
+    claim: "Built and maintained internal API integrations for operational workflows."
+    technologies: ["Python", "REST APIs", "SQL"]
+    dates: "2022-2024"
+  - id: proj_example_agent
+    status: USER_CONFIRMED
+    type: project
+    claim: "Built an evidence-grounded agent workflow with deterministic validation."
+    technologies: ["Python", "YAML", "LLM workflows"]
+  - id: skill_example_unknown
+    status: UNKNOWN
+    type: skill
+    claim: "ExampleNamedFramework"
