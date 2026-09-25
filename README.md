@@ -10,11 +10,11 @@ The repository uses fictional example data. Your real identity, career history, 
 **What the agent does:** discovers or verifies the role, evaluates fit, builds an evidence map, generates application materials, validates factual/chronological/link integrity, and records state.  
 **What comes out:** a reviewable resume, cover letter, application notes, provenance, and updated application history.
 
-**Visual overview:** [view the slide deck](docs/Career-Application-Agent-Quick-Overview.pptx) · [open PDF version](docs/Career-Application-Agent-Quick-Overview.pdf) · [read the quick project overview](docs/QUICK-PROJECT-OVERVIEW.md)
+**Visual overview:** [view the slide deck](docs/Career-Application-Agent-Quick-Overview.pptx) · [open PDF version](docs/Career-Application-Agent-Quick-Overview.pdf)
 
 [![Career Application Agent quick overview](docs/quick-overview-preview.png)](docs/Career-Application-Agent-Quick-Overview.pdf)
 
-For design rationale and common questions, see `docs/DESIGN-DECISIONS.md` and `docs/PROJECT-TALK-PREP.md`.
+For the reasoning behind the architecture and key trade-offs, see `docs/DESIGN-DECISIONS.md`.
 
 ![Career Application Agent architecture](docs/architecture.svg)
 
@@ -100,11 +100,10 @@ SKILL.md                     orchestrator / precedence / modes
 profile/                     schemas and examples for candidate facts/preferences
 rules/                       global policies
 skills/                      focused procedures
-docs/                        overview, architecture, rationale, and speaking guide
+docs/                        visual overview, architecture, design rationale, and resume-skill notes
 state/                       durable-memory schemas + fictional sample history
 samples/                     fictional end-to-end demonstration
 scripts/                     validators, state merge, offline posting checks
-checks/                      release/privacy checklist
 .gitignore                   keeps local personal data out of Git
 .github/workflows/           CI release gate
 ```
