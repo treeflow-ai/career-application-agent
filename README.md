@@ -10,7 +10,7 @@ The repository uses fictional example data. Your real identity, career history, 
 **What the agent does:** discovers or verifies the role, evaluates fit, builds an evidence map, generates application materials, validates factual/chronological/link integrity, and records state.  
 **What comes out:** a reviewable resume, cover letter, application notes, provenance, and updated application history.
 
-**Visual overview:** [view the slide deck](docs/Career-Application-Agent-Quick-Overview.pptx) · [open PDF version](docs/Career-Application-Agent-Quick-Overview.pdf)
+[Visual overview](docs/Career-Application-Agent-Quick-Overview.pdf)
 
 [![Career Application Agent quick overview](docs/quick-overview-preview.png)](docs/Career-Application-Agent-Quick-Overview.pdf)
 
@@ -86,7 +86,7 @@ The resume workflow includes more than keyword tailoring. See [Enhanced Resume S
 - chronology preservation
 - customer-facing evidence preservation
 - named-tool and metric discipline
-- ATS-safe two-page evidence budgeting
+- ATS-conscious two-page evidence budgeting
 - duplicate suppression
 - project proof/link adjacency
 - explicit `mailto:` / `https://` hyperlink integrity
@@ -110,7 +110,9 @@ scripts/                     validators, state merge, offline posting checks
 
 ## Set up your own data
 
-Copy the examples locally:
+Copy the example files into local working files. These local files are ignored by Git.
+
+### macOS / Linux
 
 ```bash
 cp profile/candidate.example.yaml profile/candidate.yaml
@@ -120,7 +122,18 @@ cp profile/master-resume.example.md profile/master-resume.md
 cp state/history.example.csv state/history.csv
 ```
 
-Fill those local files with your own facts. They are ignored by Git. Keep the `.example.*` files fictional so the repository remains safe to share.
+### Windows PowerShell
+
+```powershell
+Copy-Item profile/candidate.example.yaml profile/candidate.yaml
+Copy-Item profile/preferences.example.yaml profile/preferences.yaml
+Copy-Item profile/evidence.example.yaml profile/evidence-bank.yaml
+Copy-Item profile/master-resume.example.md profile/master-resume.md
+Copy-Item state/history.example.csv state/history.csv
+```
+
+Fill those local files with your own facts. They are ignored by Git. Keep the .example.* files fictional so the repository remains safe to share.
+
 
 ## Typical commands / intents
 
