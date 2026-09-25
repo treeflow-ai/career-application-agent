@@ -14,7 +14,7 @@ The repository uses fictional example data. Your real identity, career history, 
 
 [![Career Application Agent quick overview](docs/quick-overview-preview.png)](docs/Career-Application-Agent-Quick-Overview.pdf)
 
-For the reasoning behind the architecture and key trade-offs, see `docs/DESIGN-DECISIONS.md`.
+For the reasoning behind the architecture and key trade-offs, see [Design Decisions & Trade-offs](docs/DESIGN-DECISIONS.md).
 
 ![Career Application Agent architecture](docs/architecture.svg)
 
@@ -48,19 +48,19 @@ Two entry paths are supported:
 1. **Discovery mode** — search current sources for relevant roles, deduplicate results, and verify candidate roles against an official employer/ATS source.
 2. **Role mode** — start from a supplied posting URL, verify it, then evaluate and prepare application materials.
 
-A search-engine result, aggregator card, stale cache, or copied JD is **not** enough to mark a role open. See `skills/job-verification.md`.
+A search-engine result, aggregator card, stale cache, or copied JD is **not** enough to mark a role open. See [Job Verification skill](skills/job-verification.md).
 
 ## Why this is an agent rather than one prompt
 
 The repository separates:
 
-- **orchestration** — `SKILL.md`
-- **candidate facts/evidence** — `profile/`
-- **policy** — `rules/`
-- **reusable procedures** — `skills/`
-- **durable state** — `state/`
-- **deterministic plumbing/QA** — `scripts/`
-- **regression tests** — `tests/`
+- **orchestration** — [SKILL.md](SKILL.md)
+- **candidate facts/evidence** — [profile/](profile/)
+- **policy** — [rules/](rules/)
+- **reusable procedures** — [skills/](skills/)
+- **durable state** — [state/](state/)
+- **deterministic plumbing/QA** — [scripts/](scripts/)
+- **regression tests** — [tests/](tests/)
 
 The workflow has multiple stages, explicit handoffs, state transitions, failure/revision loops, and deterministic checks. Web/browser access is supplied by the host environment, keeping the package vendor-neutral.
 
@@ -79,7 +79,7 @@ Named tools, years of experience, scope, metrics, customers, titles, dates, work
 
 ## Enhanced resume skill
 
-The resume workflow includes more than keyword tailoring. See `docs/ENHANCED-RESUME-SKILL.md` for the full specification, including:
+The resume workflow includes more than keyword tailoring. See [Enhanced Resume Skill specification](docs/ENHANCED-RESUME-SKILL.md) for the full specification, including:
 
 - requirement decomposition before drafting
 - evidence-first tailoring
@@ -140,7 +140,7 @@ Verification is timestamped because openness is time-sensitive. The host may use
 
 ## Sample end-to-end run
 
-See `samples/` for a fictional candidate and fictional employer flow:
+See [samples/](samples/) for a fictional candidate and fictional employer flow:
 
 `discovery results -> verified role -> evidence map -> resume -> cover letter -> application notes -> provenance -> history update`
 
